@@ -1,1 +1,151 @@
-<p>sobre-nosotros works!</p>
+<div class="container-fluid px-0">
+  <div class="row gx-0">
+    <div class="col-lg-3 bg-dark d-none d-lg-block">
+      <a routerLink="/" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+        <h1 class="m-0 text-primary text-uppercase">Hotel Emperador</h1>
+      </a>
+    </div>
+    <div class="col-lg-9">
+      <div class="row gx-0 bg-white d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+          <div class="h-100 d-inline-flex align-items-center py-2 me-4">
+            <i class="fa fa-envelope text-primary me-2"></i>
+            <p class="mb-0">info&#64;example.com</p>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center py-2">
+            <i class="fa fa-phone-alt text-primary me-2"></i>
+            <p class="mb-0">+012 345 6789</p>
+          </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+          <div class="d-inline-flex align-items-center py-2">
+            <a class="me-3" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="me-3" href=""><i class="fab fa-twitter"></i></a>
+            <a class="me-3" href=""><i class="fab fa-linkedin-in"></i></a>
+            <a class="me-3" href=""><i class="fab fa-instagram"></i></a>
+            <a class="" href=""><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
+        <a routerLink="/" class="navbar-brand d-block d-lg-none">
+          <h1 class="m-0 text-primary text-uppercase">Hotel Emperador</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0">
+            <a routerLink="/" class="nav-item nav-link">Home</a>
+            <a routerLink="/sobrenosotros" class="nav-item nav-link active">Sobre nosotros</a>
+            <a routerLink="/cuartos" class="nav-item nav-link">Cuartos</a>
+            <div class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
+              <div class="dropdown-menu rounded-0 m-0">
+                <a routerLink="/booking" class="dropdown-item">Booking</a>
+                <a routerLink="/team" class="dropdown-item">Our Team</a>
+                <a routerLink="/testimonial" class="dropdown-item">Testimonial</a>
+              </div>
+            </div>
+            <a routerLink="/contacto" class="nav-item nav-link">Contactos</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<div class="header-txt foto text-center py-5 bg-light">
+  <h1>"Vive una experiencia inolvidable"</h1>
+  <a routerLink="/" class="btn btn-primary mt-3">Haz click aquí</a>
+</div>
+
+<section class="general container py-5">
+  <h2>Misión, Visión y Valores</h2>
+  <div class="general-content row">
+    <div class="general-1 txt">
+      <h3>Misión</h3>
+      <p>Brindar una experiencia única de alojamiento, combinando confort, calidez y servicio personalizado que supere expectativas.</p>
+    </div>
+    <div class="general-2 txt">
+      <h3>Visión</h3>
+      <p>Ser reconocidos como un hotel de referencia en la región por nuestra excelencia en hospitalidad e innovación.</p>
+    </div>
+    <div class="general-3 txt">
+      <h3>Valores</h3>
+      <p>
+        Hospitalidad: Amabilidad y respeto en cada servicio.<br>
+        Calidad: Estancia cómoda y memorable.<br>
+        Compromiso: Superar expectativas siempre.
+      </p>
+    </div>
+  </div>
+</section>
+
+ <section class="info-1">
+    <div class="info-content container">
+        <h2>¿Qué nos hace únicos?</h2>
+        <h3>En un mundo lleno de opciones, ofrecemos mucho más que una habitación. En nuestro hotel, 
+            cada detalle ha sido pensado para que vivas una experiencia
+            auténtica, cómoda y memorable.</h3>
+
+        <div class="info-circle">
+            <div class="circle-txt">
+                <div class="circle-1">
+                    <h3>Atención personalizada:</h3>
+                </div>
+                <p>Te conocemos por tu nombre, no por el número de habitación.</p>
+            </div>
+
+            <div class="circle-txt">
+                <div class="circle-1">
+                    <h3>Cultura local:</h3>
+                </div>
+                <p>Integramos productos regionales, arte y gastronomía local en cada rincón</p>
+            </div>
+
+            <div class="circle-txt">
+                <div class="circle-1">
+                    <h3>Compromiso ecológico:</h3>
+                </div>
+                <p>Prácticas sostenibles para cuidar el entorno sin renunciar al confort.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="info-2">
+        <div class="info-content container">
+            <h2>Mensaje de Nuestro Equipo</h2>
+            <div class="testi">
+            <div class="testi-left">
+                <div class="testi-txt">
+                    <img src="assets/img/gerenta.png" alt="Gerenta">
+                    <h3>Ana Rodríguez – Gerente General</h3>
+                    <p>
+                        “Para nosotros, cada huésped es único. 
+                        Nos esforzamos por ofrecer una experiencia que supere lo esperado, 
+                        en cada detalle.”
+                    </p>
+                </div>
+                <div class="testi-txt">
+                    <img src="../../assets/img/chef.png" alt="">
+                    <h3>Carlos Méndez – Chef Ejecutivo</h3>
+                    <p>
+                        “La cocina es una forma de dar la bienvenida. 
+                        Cada plato que servimos cuenta una historia.”
+                    </p>
+
+                </div>
+                <div class="testi-txt">
+                    <img src="../../assets/img/recep.png" alt="">
+                    <h3>María Torres – Jefa de Recepción</h3>
+                    <p>
+                        “Mi misión es que cada huésped se 
+                        sienta como en casa desde el primer momento.”
+                    </p>
+                </div>
+            </div>
+         </div>
+      </div>
+    </section>
