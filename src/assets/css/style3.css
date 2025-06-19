@@ -1,0 +1,137 @@
+.body-estilo1{
+background-color: rgb(255, 250, 184);
+}
+.body-estilo2{
+background-color: rgb(255, 250, 184);
+}
+
+.body-estilo3{
+background-color: rgb(255, 250, 184);
+}
+
+.body-estilo4{
+background-color: rgb(255, 250, 184);
+}
+
+.body-estilo5{
+background-color: rgb(255, 250, 184);
+}
+
+.body-estilo6{
+background-color: rgb(255, 250, 184);
+}
+
+
+
+
+
+
+    .form-container1 {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      background-image: url('../img/Suit_Ejecutiva.jpg'); /* Cambia la ruta por la de tu imagen */
+      background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+      background-position: center; /* Centra la imagen */
+      backdrop-filter: blur(10px); /* Aplica el efecto de difuminado */
+      border-radius: 10px; /* Bordes redondeados */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      color: white; /* Color del texto para que resalte */
+    }
+
+    .form-container2 {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      
+      background-image: url('../img/Restaurante_Principal.jpg'); /* Cambia la ruta por la de tu imagen */
+      background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+      background-position: center; /* Centra la imagen */
+      backdrop-filter: blur(10px); /* Aplica el efecto de difuminado */
+      border-radius: 10px; /* Bordes redondeados */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      color: white; /* Color del texto para que resalte */
+    }
+
+    .form-container3 {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      
+      background-image: url('../img/Aromaterapia.jpg'); /* Cambia la ruta por la de tu imagen */
+      background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+      background-position: center; /* Centra la imagen */
+      backdrop-filter: blur(10px); /* Aplica el efecto de difuminado */
+      border-radius: 10px; /* Bordes redondeados */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      color: white; /* Color del texto para que resalte */
+    }
+
+    .form-container4 {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      
+      background-image: url('../img/Cancha_Tenis.webp'); /* Cambia la ruta por la de tu imagen */
+      background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+      background-position: center; /* Centra la imagen */
+      backdrop-filter: blur(10px); /* Aplica el efecto de difuminado */
+      border-radius: 10px; /* Bordes redondeados */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      color: white; /* Color del texto para que resalte */
+    }
+
+
+ .form-container5 {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      
+      background-image: url('../img/Cena _Gala.jpg'); /* Cambia la ruta por la de tu imagen */
+      background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+      background-position: center; /* Centra la imagen */
+      backdrop-filter: blur(10px); /* Aplica el efecto de difuminado */
+      border-radius: 10px; /* Bordes redondeados */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      color: white; /* Color del texto para que resalte */
+    }
+
+
+
+    .form-container6 {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      
+      background-image: url('../img/Pilates.jpg'); /* Cambia la ruta por la de tu imagen */
+      background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+      background-position: center; /* Centra la imagen */
+      backdrop-filter: blur(10px); /* Aplica el efecto de difuminado */
+      border-radius: 10px; /* Bordes redondeados */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      color: white; /* Color del texto para que resalte */
+    }
+
+    .form-title {
+      text-align: center;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+
+    .form-label, .form-control, .form-select {
+      color: black; /* Color del texto */
+    }
+    .form-control, .form-select {
+      background-color:white; /* Fondo de los inputs y selects */
+      border: 1px solid white; /* Borde blanco */
+    }
+    .form-control::placeholder {
+      color: #bbb; /* Color del texto del placeholder */
+    }
+
+    .card-img-top {
+      height: 220px;
+      object-fit: cover;
+    }
+
