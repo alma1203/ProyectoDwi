@@ -10,4 +10,10 @@ import { RouterModule } from '@angular/router'; // <== Importar esto
   styleUrls: ['../../../assets/css/style2.css'],
   imports: [CommonModule, FormsModule, RouterModule] // <== Asegúrate que esté aquí también
 })
-export class FormularioReservaGastronomicaComponent {}
+export class FormularioReservaGastronomicaComponent {
+  confirmarReserva(event: Event): void {
+  event.preventDefault(); // Evita que se recargue la página
+  alert('¡Su reserva ha sido realizada con éxito!');
+  (event.target as HTMLFormElement).reset(); // Limpia el formulario
+  }
+}

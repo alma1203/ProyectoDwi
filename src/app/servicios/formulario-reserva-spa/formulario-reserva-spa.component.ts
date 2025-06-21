@@ -9,4 +9,10 @@ import { CommonModule } from '@angular/common';  // ✅ Necesario si usas *ngIf,
   templateUrl: './formulario-reserva-spa.component.html',
   styleUrls: ['../../../assets/css/style2.css']
 })
-export class FormularioReservaSpaComponent {}
+export class FormularioReservaSpaComponent {
+  confirmarReserva(event: Event): void {
+  event.preventDefault(); // Evita que se recargue la página
+  alert('¡Su reserva ha sido realizada con éxito!');
+  (event.target as HTMLFormElement).reset(); // Limpia el formulario
+  }
+}

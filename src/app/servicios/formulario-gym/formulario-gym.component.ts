@@ -9,4 +9,10 @@ import { RouterModule } from '@angular/router';
   templateUrl: './formulario-gym.component.html',
   styleUrls: ['../../../assets/css/style2.css']
 })
-export class FormularioGymComponent {}
+export class FormularioGymComponent {
+  confirmarReserva(event: Event): void {
+  event.preventDefault(); // Evita que se recargue la página
+  alert('¡Su reserva ha sido realizada con éxito!');
+  (event.target as HTMLFormElement).reset(); // Limpia el formulario
+  }
+}

@@ -10,4 +10,10 @@ import { RouterModule } from '@angular/router'; // ⚠️ IMPORTANTE
   templateUrl: './formulario-reserva-habitaciones.component.html',
   styleUrls: ['../../../assets/css/style2.css']
 })
-export class FormularioReservaHabitacionesComponent {}
+export class FormularioReservaHabitacionesComponent {
+  confirmarReserva(event: Event): void {
+  event.preventDefault(); // Evita que se recargue la página
+  alert('¡Su reserva ha sido realizada con éxito!');
+  (event.target as HTMLFormElement).reset(); // Limpia el formulario
+  }
+}

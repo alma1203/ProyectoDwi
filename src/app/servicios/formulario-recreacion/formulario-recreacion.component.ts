@@ -9,4 +9,10 @@ import { CommonModule } from '@angular/common';
   templateUrl: './formulario-recreacion.component.html',
   styleUrls: ['../../../assets/css/style2.css']
 })
-export class FormularioRecreacionComponent {}
+export class FormularioRecreacionComponent {
+  confirmarReserva(event: Event): void {
+  event.preventDefault(); // Evita que se recargue la página
+  alert('¡Su reserva ha sido realizada con éxito!');
+  (event.target as HTMLFormElement).reset(); // Limpia el formulario
+  }
+}

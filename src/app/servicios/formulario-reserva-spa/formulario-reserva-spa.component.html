@@ -19,7 +19,7 @@
 <!-- FORMULARIO SPA -->
 <div class="form-container3 my-5">
   <h2 class="form-title">Reserva Sesión de Spa</h2>
-  <form>
+  <form (submit)="confirmarReserva($event)">
     <div class="mb-3">
       <label for="nombre" class="form-label">Nombre Completo</label>
       <input type="text" class="form-control" id="nombre" required>
