@@ -1,0 +1,94 @@
+<div class="body-estilo2">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <div class="container">
+      <a class="navbar-brand" routerLink="/">Hotel Emperador</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" routerLink="/">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Gastronomía</a></li>
+          <li class="nav-item"><a class="nav-link" routerLink="/formulario-reserva-gastronomica">Reservar</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Gastronomía Hotel Paradise</h2>
+    <p class="lead text-center">Descubre nuestras opciones gastronómicas diseñadas para cautivar todos los gustos. Vive una experiencia culinaria excepcional.</p>
+
+    <!-- Catálogo gastronómico -->
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4">
+      <!-- Restaurante Principal -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/Restaurante_Principal.jpg" class="card-img-top" alt="Restaurante Principal">
+          <div class="card-body">
+            <h5 class="card-title">Restaurante Principal</h5>
+            <p class="card-text">Ambiente elegante con cocina gourmet, maridajes exclusivos y atención de primer nivel.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Buffet Desayuno -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/Buffet_Desayuno.jpg" class="card-img-top" alt="Buffet de desayuno">
+          <div class="card-body">
+            <h5 class="card-title">Buffet Desayuno</h5>
+            <p class="card-text">Buffet variado con frutas frescas, panes artesanales, jugos naturales y opciones saludables.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cafetería -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/Cafeteria_Hotel.jpg" class="card-img-top" alt="Cafetería del hotel">
+          <div class="card-body">
+            <h5 class="card-title">Cafetería</h5>
+            <p class="card-text">Saborea un buen café, repostería casera y bebidas calientes en un ambiente relajante y acogedor.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bar & Lounge -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/Bar&Lounge.webp" class="card-img-top" alt="Bar y lounge del hotel">
+          <div class="card-body">
+            <h5 class="card-title">Bar & Lounge</h5>
+            <p class="card-text">Disfruta cócteles clásicos y exclusivos mientras te relajas con música suave en nuestro lounge.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Opciones Veganas -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/Opciones_vegetarianas.jpg" class="card-img-top" alt="Plato vegano">
+          <div class="card-body">
+            <h5 class="card-title">Opciones Veganas</h5>
+            <p class="card-text">Menú especial para vegetarianos y veganos con ingredientes frescos y orgánicos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Botón de reserva -->
+    <div class="text-center mt-5">
+      <a routerLink="/formulario-reserva-gastronomica" class="btn btn-warning btn-lg">Reservar Experiencia Gastronómica</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Hotel Paradise. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</div>

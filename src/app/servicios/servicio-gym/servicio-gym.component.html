@@ -1,0 +1,112 @@
+<div class="body-estilo6">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <div class="container">
+      <a class="navbar-brand" routerLink="/">Hotel Emperador</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" routerLink="/">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">GYM & Yoga</a></li>
+          <li class="nav-item"><a class="nav-link" routerLink="/formulario-gym">Reservar</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Encabezado -->
+  <div class="container my-5 text-center">
+    <h2 class="mb-3">GYM & Yoga</h2>
+    <p class="lead">
+      Mantente en forma y encuentra tu equilibrio con nuestras diversas actividades de fitness y bienestar.
+    </p>
+  </div>
+
+  <!-- Catálogo de GYM & Yoga -->
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+      <!-- Acceso al Gimnasio -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/Gymnasio.png" class="card-img-top" alt="Gimnasio">
+          <div class="card-body">
+            <h5 class="card-title">Acceso al Gimnasio</h5>
+            <p class="card-text">S/. 80 mensual</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Clase de Yoga -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/Yoga.webp" class="card-img-top" alt="Yoga">
+          <div class="card-body">
+            <h5 class="card-title">Clase de Yoga</h5>
+            <p class="card-text">S/. 25 por sesión</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Entrenador Personal -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/Entrenador_personal.jpg" class="card-img-top" alt="Entrenador">
+          <div class="card-body">
+            <h5 class="card-title">Entrenador Personal</h5>
+            <p class="card-text">S/. 100 por hora</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pilates -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/Pilates.jpg" class="card-img-top" alt="Pilates">
+          <div class="card-body">
+            <h5 class="card-title">Pilates</h5>
+            <p class="card-text">S/. 35 por sesión</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Zumba -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/Zumba.jpg" class="card-img-top" alt="Zumba">
+          <div class="card-body">
+            <h5 class="card-title">Zumba</h5>
+            <p class="card-text">S/. 20 por clase</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bailoterapia -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/Bailoterapia.jpg" class="card-img-top" alt="Bailoterapia">
+          <div class="card-body">
+            <h5 class="card-title">Bailoterapia</h5>
+            <p class="card-text">S/. 120 por sesión</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Botón de reserva -->
+    <div class="text-center mt-5">
+      <a routerLink="/formulario-gym" class="btn btn-warning btn-lg">
+        Reservar Servicio
+      </a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Hotel Paradise. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</div>

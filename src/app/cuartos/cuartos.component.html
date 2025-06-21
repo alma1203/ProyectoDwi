@@ -1,1 +1,258 @@
-<p>cuartos works!</p>
+<body>
+<div class="container-xxl bg-white p-0">
+<!-- Header Start -->
+<div class="container-fluid bg-dark px-0">
+    <div class="row gx-0">
+        <div class="col-lg-3 bg-dark d-none d-lg-block">
+            <a routerLink="/" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                <h1 class="m-0 text-primary text-uppercase">Hotel Emperador</h1>
+            </a>
+        </div>
+        <div class="col-lg-9">
+            <div class="row gx-0 bg-white d-none d-lg-flex">
+                <div class="col-lg-7 px-5 text-start">
+                    <div class="h-100 d-inline-flex align-items-center py-2 me-4">
+                        <i class="fa fa-envelope text-primary me-2"></i>
+                        <p class="mb-0">info&#64;example.com</p>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center py-2">
+                        <i class="fa fa-phone-alt text-primary me-2"></i>
+                        <p class="mb-0">+012 345 6789</p>
+                    </div>
+                </div>
+                <div class="col-lg-5 px-5 text-end">
+                    <div class="d-inline-flex align-items-center py-2">
+                        <a class="me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="me-3" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="me-3" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="me-3" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="" href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
+                <a routerLink="/" class="navbar-brand d-block d-lg-none">
+                    <h1 class="m-0 text-primary text-uppercase">Hotel Emperador</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="/" class="nav-item nav-link">Home</a>
+                        <a href="/sobre-nosotros" class="nav-item nav-link">Sobre nosotros</a>
+                        <a href="/cuartos"class="nav-item nav-link active">Suite</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="/reservas" class="dropdown-item">Booking</a>
+                                <a href="/equipo" class="dropdown-item">Nuestro Equipo</a>
+                                <a href="/testimonios" class="dropdown-item">Testimonios</a>
+                            </div>
+                        </div>
+                        <a href="/contacto" class="nav-item nav-link">Contactos</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+ <!-- Cuartos Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp mb-5" data-wow-delay="0.1s">
+                <h6 class="section-title text-center text-primary text-uppercase">Nuestras Habitaciones</h6>
+                <h1 class="mb-5">Explora <span class="text-primary text-uppercase">Nuestras Suites</span></h1>
+            </div>
+            <div class="row g-4">
+                <!-- Cuarto 1 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="assets/img/room-1.jpg" alt="">
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded-end py-1 px-3 ms-4">$89 / Noche</small>
+                        </div>
+                        <div class="p-4 mt-2">
+                            <h5 class="mb-3">Suite Estándar</h5>
+                            <p>Ideal para viajeros que buscan comodidad. Cama doble, escritorio, baño privado y aire acondicionado.</p>
+                            <div class="d-flex mb-3">
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>1 Cama Doble</small>
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Baño</small>
+                                <small><i class="fa fa-wifi text-primary me-2"></i>Wi-Fi Gratis</small>
+                            </div>
+                            <a href="/reservas" class="btn btn-sm btn-primary rounded py-2 px-4 reservar-btn">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cuarto 2 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="assets/img/room-2.jpg" alt="">
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded-end py-1 px-3 ms-4">$129 / Noche</small>
+                        </div>
+                        <div class="p-4 mt-2">
+                            <h5 class="mb-3">Suite Ejecutiva</h5>
+                            <p>Espaciosa y elegante, perfecta para viajes de negocios. Incluye minibar, Smart TV y vista panorámica.</p>
+                            <div class="d-flex mb-3">
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>Cama Queen</small>
+                                <small class="border-end me-3 pe-3"><i class="fa fa-tv text-primary me-2"></i>Smart TV</small>
+                                <small><i class="fa fa-wifi text-primary me-2"></i>Wi-Fi Premium</small>
+                            </div>
+                            <a href="/reservas" class="btn btn-sm btn-primary rounded py-2 px-4 reservar-btn">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cuarto 3 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="assets/img/room-3.jpg" alt="">
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded-end py-1 px-3 ms-4">$199 / Noche</small>
+                        </div>
+                        <div class="p-4 mt-2">
+                            <h5 class="mb-3">Suite Familiar</h5>
+                            <p>Perfecta para familias. Cuenta con dos dormitorios, sala de estar, kitchenette y balcón privado.</p>
+                            <div class="d-flex mb-3">
+                                <small class="border-end me-3 pe-3"><i class="fa fa-users text-primary me-2"></i>4 Personas</small>
+                                <small class="border-end me-3 pe-3"><i class="fa fa-utensils text-primary me-2"></i>Kitchenette</small>
+                                <small><i class="fa fa-car text-primary me-2"></i>Estacionamiento</small>
+                            </div>
+                            <a href="/reservas" class="btn btn-sm btn-primary rounded py-2 px-4 reservar-btn">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cuarto 4 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="assets/img/room-4.jpg" alt="">
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded-end py-1 px-3 ms-4">$149 / Noche</small>
+                        </div>
+                        <div class="p-4 mt-2">
+                            <h5 class="mb-3">Suite Romántica</h5>
+                            <p>Ambiente íntimo con jacuzzi privado, decoración elegante y vista al atardecer. Ideal para parejas.</p>
+                            <div class="d-flex mb-3">
+                                <small class="border-end me-3 pe-3"><i class="fa fa-heart text-primary me-2"></i>Jacuzzi</small>
+                                <small class="border-end me-3 pe-3"><i class="fa fa-wine-glass text-primary me-2"></i>Champaña</small>
+                                <small><i class="fa fa-eye text-primary me-2"></i>Vista Panorámica</small>
+                            </div>
+                            <a href="/reservas" class="btn btn-sm btn-primary rounded py-2 px-4 reservar-btn">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cuarto 5 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="assets/img/room-5.jpg" alt="">
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded-end py-1 px-3 ms-4">$109 / Noche</small>
+                        </div>
+                        <div class="p-4 mt-2">
+                            <h5 class="mb-3">Suite Superior</h5>
+                            <p>Comodidad y tecnología en un solo espacio. Cama King, iluminación inteligente y control por voz.</p>
+                            <div class="d-flex mb-3">
+                                <small class="border-end me-3 pe-3"><i class="fa fa-lightbulb text-primary me-2"></i>Luces Smart</small>
+                                <small class="border-end me-3 pe-3"><i class="fa fa-microphone text-primary me-2"></i>Asistente Virtual</small>
+                                <small><i class="fa fa-bed text-primary me-2"></i>Cama King</small>
+                            </div>
+                            <a href="/reservas" class="btn btn-sm btn-primary rounded py-2 px-4 reservar-btn">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cuarto 6 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="assets/img/room-6.jpg" alt="">
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded-end py-1 px-3 ms-4">$85 / Noche</small>
+                        </div>
+                        <div class="p-4 mt-2">
+                            <h5 class="mb-3">Suite Económica</h5>
+                            <p>Una opción asequible y acogedora para estancias breves. Baño compartido y escritorio de trabajo.</p>
+                            <div class="d-flex mb-3">
+                                <small style="font-size: 0.82rem;" class="border-end me-3 pe-3"><i class="fa fa-coffee text-primary me-2"></i>Desayuno Incluido</small>
+                                <small style="font-size: 0.81rem;" class="border-end me-3 pe-3"><i class="fa fa-laptop text-primary me-2"></i>Espacio de Trabajo</small>
+                                <small style="font-size: 0.80rem;"><i class="fa fa-users text-primary me-2"></i>2 Personas</small>
+                            </div>
+                            <a href="/reservas" class="btn btn-sm btn-primary rounded py-2 px-4 reservar-btn">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cuartos End -->
+     <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
+    <div class="container pb-5">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-4">
+                <div class="bg-primary rounded p-4">
+                    <a routerLink="/"><h1 class="text-white text-uppercase mb-3">Hotelier</h1></a>
+                    <p class="text-white mb-0">
+                        Download <a class="text-dark fw-medium" href="#">Hotelier – Premium Version</a>,
+                        build a professional website for your hotel business and grab the attention of new visitors upon your site’s launch.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h6 class="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info&#64;example.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <div class="row gy-5 g-4">
+                    <div class="col-md-6">
+                        <h6 class="section-title text-start text-primary text-uppercase mb-4">Company</h6>
+                        <a class="btn btn-link" href="/sobre-nosotros">About Us</a>
+                        <a class="btn btn-link" href="/contacto">Contact Us</a>
+                        <a class="btn btn-link" href="#">Privacy Policy</a>
+                        <a class="btn btn-link" href="#">Terms & Condition</a>
+                        <a class="btn btn-link" href="#">Support</a>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="section-title text-start text-primary text-uppercase mb-4">Services</h6>
+                        <a class="btn btn-link" routerLink="/servicio-gastronomia">Food & Restaurant</a>
+                        <a class="btn btn-link" routerLink="/servicio-spa">Spa & Fitness</a>
+                        <a class="btn btn-link" routerLink="/servicio-recreacion">Sports & Gaming</a>
+                        <a class="btn btn-link" routerLink="/servicio-eventos">Event & Party</a>
+                        <a class="btn btn-link" routerLink="/servicio-gym">GYM & Yoga</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" routerLink="/">Your Site Name</a>, All Right Reserved.
+                    Designed By <a class="border-bottom" href="#">Your Site Name</a>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a routerLink="/">Home</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">Help</a>
+                        <a href="#">FQAs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>

@@ -1,0 +1,111 @@
+<!-- Navbar personalizado para el Servicio Spa -->
+<div class="body-estilo3">
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/">Hotel Emperador</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/servicio-spa">Spa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/formulario-reserva-spa">Reservar</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Contenido principal -->
+<div class="container my-5 text-center">
+  <h2 class="mb-3">Spa & Bienestar</h2>
+  <p class="lead">
+    Sumérgete en un mundo de relajación y renovación. Vive una experiencia sensorial única en nuestro exclusivo spa.
+  </p>
+</div>
+
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+    <!-- Masajes relajantes -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/Masajes _Relajantes.webp" class="card-img-top" alt="Masajes relajantes">
+        <div class="card-body">
+          <h5 class="card-title">Masajes Relajantes</h5>
+          <p class="card-text">Reduce el estrés y la tensión muscular con masajes terapéuticos y técnicas ancestrales.</p>
+          <p class="card-text fw-bold">Precio: S/. 120</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Aromaterapia -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/Aromaterapia.jpg" class="card-img-top" alt="Aromaterapia">
+        <div class="card-body">
+          <h5 class="card-title">Aromaterapia</h5>
+          <p class="card-text">Fragancias naturales que estimulan los sentidos y mejoran el bienestar emocional y físico.</p>
+          <p class="card-text fw-bold">Precio: S/. 90</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sauna y jacuzzi -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/Sauna&Jacuzzi.jpg" class="card-img-top" alt="Sauna y jacuzzi">
+        <div class="card-body">
+          <h5 class="card-title">Sauna & Jacuzzi</h5>
+          <p class="card-text">Disfruta del calor terapéutico y burbujas relajantes para una experiencia completa de spa.</p>
+          <p class="card-text fw-bold">Precio: S/. 100</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tratamientos faciales -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/Tratamiento_Facial.jpg" class="card-img-top" alt="Tratamiento facial">
+        <div class="card-body">
+          <h5 class="card-title">Tratamientos Faciales</h5>
+          <p class="card-text">Restaura el brillo natural de tu piel con tratamientos nutritivos y limpieza profunda.</p>
+          <p class="card-text fw-bold">Precio: S/. 110</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Terapias corporales -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/Tratamiento_Corporal.png" class="card-img-top" alt="Tratamiento corporal">
+        <div class="card-body">
+          <h5 class="card-title">Terapias Corporales</h5>
+          <p class="card-text">Exfoliaciones, envolturas con barro volcánico y más para revitalizar cuerpo y mente.</p>
+          <p class="card-text fw-bold">Precio: S/. 130</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Botón de reserva -->
+  <div class="text-center mt-5">
+    <a routerLink="/formulario-reserva-spa" class="btn btn-warning btn-lg">
+      Reservar Sesión de Spa
+    </a>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4 mt-5">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Hotel Paradise. Todos los derechos reservados.</p>
+  </div>
+</footer>
+</div>

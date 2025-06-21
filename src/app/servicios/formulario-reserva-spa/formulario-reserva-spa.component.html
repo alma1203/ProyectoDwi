@@ -1,0 +1,72 @@
+
+<div class="body-estilo3">
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/">Hotel Emperador</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" routerLink="/">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/servicio-spa">Volver al Servicio</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- FORMULARIO SPA -->
+<div class="form-container3 my-5">
+  <h2 class="form-title">Reserva Sesión de Spa</h2>
+  <form>
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre Completo</label>
+      <input type="text" class="form-control" id="nombre" required>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Correo Electrónico</label>
+      <input type="email" class="form-control" id="email" required>
+    </div>
+    <div class="mb-3">
+      <label for="telefono" class="form-label">Teléfono</label>
+      <input type="tel" class="form-control" id="telefono" maxlength="9" pattern="\d{9}" required>
+    </div>
+    <div class="mb-3">
+      <label for="fecha-reserva" class="form-label">Fecha de Reserva</label>
+      <input type="date" class="form-control" id="fecha-reserva" required>
+    </div>
+    <div class="mb-3">
+      <label for="hora-reserva" class="form-label">Hora de Reserva</label>
+      <input type="time" class="form-control" id="hora-reserva" required>
+    </div>
+    <div class="mb-3">
+      <label for="servicio" class="form-label">Tipo de Servicio</label>
+      <select class="form-select" id="servicio" required>
+        <option value="" disabled selected>Seleccione un servicio</option>
+        <option value="masajes">Masajes Relajantes</option>
+        <option value="aromaterapia">Aromaterapia</option>
+        <option value="sauna">Sauna & Jacuzzi</option>
+        <option value="faciales">Tratamientos Faciales</option>
+        <option value="terapias">Terapias Corporales</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="tarjeta" class="form-label">Número de Tarjeta</label>
+      <input type="text" class="form-control" id="tarjeta" required>
+    </div>
+    <div class="mb-3">
+      <label for="fecha-expiracion" class="form-label">Fecha de Expiración</label>
+      <input type="month" class="form-control" id="fecha-expiracion" required>
+    </div>
+    <button type="submit" class="btn btn-warning">Reservar</button>
+  </form>
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-4 mt-5">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Hotel Paradise. Todos los derechos reservados.</p>
+  </div>
+</footer>
+</div>

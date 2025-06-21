@@ -1,0 +1,72 @@
+<div class="body-estilo6">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <div class="container">
+      <a class="navbar-brand" routerLink="/">Hotel Emperador</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/servicio-gym">Volver al Servicio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="form-container6 my-5">
+    <h2 class="form-title">Reserva de Gym & Yoga</h2>
+    <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre Completo</label>
+        <input type="text" class="form-control" id="nombre" required />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo Electrónico</label>
+        <input type="email" class="form-control" id="email" required />
+      </div>
+      <div class="mb-3">
+        <label for="telefono" class="form-label">Teléfono</label>
+        <input type="tel" class="form-control" id="telefono" maxlength="9" pattern="\d{9}" required />
+      </div>
+
+      <div class="mb-3">
+        <label for="servicio" class="form-label">Tipo de Evento</label>
+        <select class="form-select" id="servicio" required>
+          <option value="" disabled selected>Seleccione un servicio</option>
+          <option value="gimnasio">Acceso al Gimnasio</option>
+          <option value="yoga">Clase de Yoga</option>
+          <option value="entrenador">Entrenador Personal</option>
+          <option value="pilates">Pilates</option>
+          <option value="zumba">Zumba</option>
+          <option value="bailoterapia">Bailoterapia</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="fecha-reserva" class="form-label">Fecha de Reserva</label>
+        <input type="date" class="form-control" id="fecha-reserva" required />
+      </div>
+      <div class="mb-3">
+        <label for="hora-reserva" class="form-label">Hora de Reserva</label>
+        <input type="time" class="form-control" id="hora-reserva" required />
+      </div>
+      <div class="mb-3">
+        <label for="personas" class="form-label">Número de Personas</label>
+        <input type="number" class="form-control" id="personas" min="1" required />
+      </div>
+      <button type="submit" class="btn btn-warning">Reservar</button>
+    </form>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Hotel Paradise. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</div>

@@ -1,0 +1,77 @@
+
+<div class="body-estilo3">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/">Hotel Emperador</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/servicio-habitaciones-apartament">Volver al Servicio</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Formulario de reserva -->
+<div class="form-container1 my-5">
+  <h2 class="form-title">Formulario de Reserva</h2>
+  <form>
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre Completo</label>
+      <input type="text" class="form-control" id="nombre" required />
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Correo Electrónico</label>
+      <input type="email" class="form-control" id="email" required />
+    </div>
+    <div class="mb-3">
+      <label for="telefono" class="form-label">Teléfono</label>
+      <input type="tel" class="form-control" id="telefono" required />
+    </div>
+    <div class="mb-3">
+      <label for="fecha-entrada" class="form-label">Fecha de Entrada</label>
+      <input type="date" class="form-control" id="fecha-entrada" required />
+    </div>
+    <div class="mb-3">
+      <label for="fecha-salida" class="form-label">Fecha de Salida</label>
+      <input type="date" class="form-control" id="fecha-salida" required />
+    </div>
+    <div class="mb-3">
+      <label for="habitacion" class="form-label">Tipo de Habitación</label>
+      <select class="form-select" id="habitacion" required>
+        <option value="" disabled selected>Seleccione una opción</option>
+        <option value="doble">Habitación Doble</option>
+        <option value="familiar">Apartamento Familiar</option>
+        <option value="suite">Suite Ejecutiva</option>
+        <option value="individual">Habitación Individual</option>
+        <option value="triple">Habitación Triple</option>
+        <option value="loft">Loft de Lujo</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="tarjeta" class="form-label">Número de Tarjeta</label>
+      <input type="text" class="form-control" id="tarjeta" required />
+    </div>
+    <div class="mb-3">
+      <label for="fecha-expiracion" class="form-label">Fecha de Expiración</label>
+      <input type="month" class="form-control" id="fecha-expiracion" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Reservar</button>
+  </form>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4 mt-5">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Hotel Paradise. Todos los derechos reservados.</p>
+  </div>
+</footer>
+</div>

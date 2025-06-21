@@ -1,0 +1,113 @@
+<!-- servicio-eventos.component.html -->
+<div class="body-estilo5">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <div class="container">
+      <a class="navbar-brand" routerLink="/">Hotel Emperador</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" routerLink="/">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Eventos</a></li>
+          <li class="nav-item"><a class="nav-link" routerLink="/formulario-eventos">Reservar</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Encabezado -->
+  <div class="container my-5 text-center">
+    <h2 class="mb-3">Eventos & Celebraciones</h2>
+    <p class="lead">
+      Celebra momentos inolvidables con nosotros. Ofrecemos un servicio personalizado para cada tipo de evento.
+    </p>
+  </div>
+
+  <!-- Catálogo de Eventos -->
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+      <!-- Bodas Elegantes -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/Boda_Elegante.jpg" class="card-img-top" alt="Bodas">
+          <div class="card-body">
+            <h5 class="card-title">Bodas Elegantes</h5>
+            <p class="card-text">S/. 3000 por evento</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cumpleaños -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/Cumpleaños.jpeg" class="card-img-top" alt="Cumpleaños">
+          <div class="card-body">
+            <h5 class="card-title">Cumpleaños</h5>
+            <p class="card-text">S/. 1000 por evento</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Aniversarios -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/Aniversario.jpg" class="card-img-top" alt="Aniversario">
+          <div class="card-body">
+            <h5 class="card-title">Aniversarios</h5>
+            <p class="card-text">S/. 1500 por evento</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Conferencias -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/Conferencias.webp" class="card-img-top" alt="Conferencia">
+          <div class="card-body">
+            <h5 class="card-title">Conferencias</h5>
+            <p class="card-text">S/. 2000 por jornada</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cenas de Gala -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/Cena_Gala.jpg" class="card-img-top" alt="Cena">
+          <div class="card-body">
+            <h5 class="card-title">Cenas de Gala</h5>
+            <p class="card-text">S/. 250 por persona</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Eventos Corporativos -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/Eventos_Corporativo.webp" class="card-img-top" alt="Evento">
+          <div class="card-body">
+            <h5 class="card-title">Eventos Corporativos</h5>
+            <p class="card-text">S/. 4000 por evento</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Botón de reserva -->
+    <div class="text-center mt-5">
+      <a routerLink="/formulario-eventos" class="btn btn-warning btn-lg">Reservar Evento</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Hotel Paradise. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</div>
