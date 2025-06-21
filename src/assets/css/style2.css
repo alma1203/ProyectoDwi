@@ -119,10 +119,6 @@ background-color: rgb(255, 250, 184);
       color: white;
     }
 
-
-    .form-label, .form-control, .form-select {
-      color: white; /* Color del texto */
-    }
     .form-control, .form-select {
       background-color:white; /* Fondo de los inputs y selects */
       border: 1px solid white; /* Borde blanco */
