@@ -9,7 +9,7 @@ export class ContactoComponent {
 
   enviarConsulta(event: Event): void {
     event.preventDefault();
-    alert('¡Consulta enviada con éxito!');
+    alert('¡Inicia Secion!');
     (event.target as HTMLFormElement).reset();
   }
 

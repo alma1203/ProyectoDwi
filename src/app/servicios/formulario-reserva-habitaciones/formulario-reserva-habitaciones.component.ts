@@ -13,7 +13,7 @@ import { RouterModule } from '@angular/router'; // ⚠️ IMPORTANTE
 export class FormularioReservaHabitacionesComponent {
   confirmarReserva(event: Event): void {
   event.preventDefault(); // Evita que se recargue la página
-  alert('¡Su reserva ha sido realizada con éxito!');
+  alert('¡Inicia Secion!');
   (event.target as HTMLFormElement).reset(); // Limpia el formulario
   }
 }

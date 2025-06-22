@@ -12,7 +12,7 @@ import { CommonModule } from '@angular/common';
 export class FormularioRecreacionComponent {
   confirmarReserva(event: Event): void {
   event.preventDefault(); // Evita que se recargue la página
-  alert('¡Su reserva ha sido realizada con éxito!');
+  alert('¡Inicia Secion!');
   (event.target as HTMLFormElement).reset(); // Limpia el formulario
   }
 }

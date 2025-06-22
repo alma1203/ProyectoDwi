@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class ReservasComponent {
   reservar(event: Event): void {
     event.preventDefault();
-    alert('¡Reserva realizada con éxito!');
+    alert('¡Inicia Secion!');
     (event.target as HTMLFormElement).reset();
   }
 
