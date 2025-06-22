@@ -1,0 +1,31 @@
+<body>
+    <div class="container">
+        <div class="image-box">
+            <img src="assets/img/Hotel.jpg" alt="Imagen de fondo">
+        </div>
+        <div class="login-box">
+            <h2>Login</h2>
+            <form>
+                <div class="user-box">
+                    <input type="email" name="correoElectronico" id="correoElectronico" required=" ">
+                    <label>Correo Electrónico</label>
+                </div>
+                <div class="user-box">
+                    <input type="password" name="password" id="password" required=" ">
+                    <label>Contraseña</label>
+                </div>
+                <div class="user-box">
+                    <select name="tipoUsuario" id="tipoUsuario" required="">
+                        <option value="" disabled selected>Selecciona el tipo de usuario</option>
+                        <option style="color: black;" value="administrador">Administrador</option>
+                        <option style="color: black;" value="cliente">Cliente</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-button">Ingresar</button>
+                <div class="extra-options">
+                    <a href="/register" class="animated-link">Registrarse</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>

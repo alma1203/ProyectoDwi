@@ -1,0 +1,66 @@
+<body>
+<div class="container">
+  <div class="register-box">
+    <h2>Registro</h2>
+    <form>
+      <div class="user-box">
+        <input type="text" name="dni" id="dni" required maxlength="8" />
+        <label>DNI</label>
+        <p id="dni-error" class="error"></p>
+      </div>
+
+      <div class="user-box">
+        <input type="text" id="nombre" name="nombre" required />
+        <label>Nombre</label>
+      </div>
+
+      <div class="user-box">
+        <input type="text" id="primerApellido" name="primerApellido" required />
+        <label>Primer Apellido</label>
+      </div>
+
+      <div class="user-box">
+        <input type="text" name="NumeroTelefonico" id="NumeroTelefonico" required maxlength="9" />
+        <label>Número Telefónico</label>
+        <p id="telefono-error" class="error"></p>
+      </div>
+
+      <div class="user-box">
+        <input type="text" name="direccion" required />
+        <label>Dirección</label>
+      </div>
+
+      <div class="user-box">
+        <input type="email" name="correoElectronico" required />
+        <label>Correo Electrónico</label>
+      </div>
+
+      <div class="user-box">
+        <input
+          type="password"
+          name="contrasena"
+          id="password"
+          required
+          (input)="evaluarSeguridad()"
+        />
+        <label>Contraseña</label>
+        <div class="password-strength">
+          <div id="strength-bar" class="strength-bar"></div>
+        </div>
+        <p id="password-error" class="error"></p>
+      </div>
+
+      <div class="user-box">
+        <input type="password" name="confirmarContrasena" id="confirmarPassword" required />
+        <label>Confirmar Contraseña</label>
+        <p id="confirm-password-error" class="error"></p>
+      </div>
+
+      <div class="button-container">
+        <input type="submit" value="Registrar" />
+        <button type="button" onclick="window.location.href='/login'">Login</button>
+      </div>
+    </form>
+  </div>
+</div>
+</body>

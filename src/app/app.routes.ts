@@ -13,12 +13,13 @@ import { FormularioReservaHabitacionesComponent } from './servicios/formulario-r
 import { ServicioHabitacionesApartamentComponent } from './servicios/servicio-habitaciones-apartament/servicio-habitaciones-apartament.component';
 import { FormularioReservaSpaComponent } from './servicios/formulario-reserva-spa/formulario-reserva-spa.component';
 import { ServicioSpaComponent } from './servicios/servicio-spa/servicio-spa.component';
-
 import { CuartosComponent } from '../app//cuartos/cuartos.component';
 import { ReservasComponent } from '../app//reservas/reservas.component';
 import { EquipoComponent } from '../app/equipo/equipo.component';
 import { TestimoniosComponent } from '../app/testimonios/testimonios.component';
 import { ContactoComponent } from '../app/contacto/contacto.component';
+import { Login } from './login/login.component';
+import { Register } from './register/registercomponent';
 
 export const routes: Routes = [
   { path: '', component: InicioComponent }, // Página de inicio
@@ -46,5 +47,7 @@ export const routes: Routes = [
   { path: 'equipo', component: EquipoComponent },
   { path: 'testimonios', component: TestimoniosComponent },
   { path: 'contacto', component: ContactoComponent },
+  { path: 'login', component: Login },
+  { path: 'register', component: Register },
   { path: '**', redirectTo: '' } // Ruta comodín para errores 404
 ];

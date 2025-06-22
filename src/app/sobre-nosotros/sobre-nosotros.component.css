@@ -364,3 +364,16 @@ h2 {
     padding-right: 0;
     border-right: none;
 }
+.btn-login {
+  background-color: orange;
+  color: white;
+  border: 2px solid orange;
+  transition: all 0.3s ease;
+  padding-top: 20px;
+}
+
+.btn-login:hover {
+  background-color: white;
+  color: orange;
+  border-color: orange;
+}
