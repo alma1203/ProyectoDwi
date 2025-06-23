@@ -1,0 +1,62 @@
+<div class="container-fluid py-4">
+  <h3 class="mb-4">Gestión de Reservas</h3>
+
+  <!-- Filtros -->
+  <div class="row mb-3">
+    <div class="col-md-4">
+      <input type="date" class="form-control" placeholder="Filtrar por fecha">
+    </div>
+    <div class="col-md-4">
+      <select class="form-select">
+        <option value="">Todos los estados</option>
+        <option value="pendiente">Pendiente</option>
+        <option value="confirmada">Confirmada</option>
+        <option value="cancelada">Cancelada</option>
+      </select>
+    </div>
+    <div class="col-md-4">
+      <input type="text" class="form-control" placeholder="Buscar por nombre o email">
+    </div>
+  </div>
+
+  <!-- Tabla de reservas -->
+  <div class="table-responsive shadow-sm">
+    <table class="table table-striped align-middle">
+      <thead class="table-dark">
+        <tr>
+          <th>#</th>
+          <th>Cliente</th>
+          <th>Correo</th>
+          <th>Fecha</th>
+          <th>Hora</th>
+          <th>Habitación</th>
+          <th>Estado</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let reserva of reservas; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ reserva.nombre }}</td>
+          <td>{{ reserva.correo }}</td>
+          <td>{{ reserva.fecha }}</td>
+          <td>{{ reserva.hora }}</td>
+          <td>{{ reserva.habitacion }}</td>
+          <td>
+            <span class="badge" [ngClass]="{
+              'bg-warning': reserva.estado === 'pendiente',
+              'bg-success': reserva.estado === 'confirmada',
+              'bg-danger': reserva.estado === 'cancelada'
+            }">
+              {{ reserva.estado | titlecase }}
+            </span>
+          </td>
+          <td>
+            <button class="btn btn-sm btn-outline-primary me-1">Editar</button>
+            <button class="btn btn-sm btn-outline-danger">Eliminar</button>
+          </td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

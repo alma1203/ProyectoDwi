@@ -1,0 +1,59 @@
+<div class="row g-4 mb-4">
+  <div class="col-md-6 col-lg-3">
+    <div class="card bg-light text-center border-0 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Reservas hoy</h5>
+        <p class="display-6 text-primary">15</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3">
+    <div class="card bg-light text-center border-0 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Clientes registrados</h5>
+        <p class="display-6 text-success">123</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3">
+    <div class="card bg-light text-center border-0 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Eventos próximos</h5>
+        <p class="display-6 text-warning">3</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3">
+    <div class="card bg-light text-center border-0 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Habitaciones ocupadas</h5>
+        <p class="display-6 text-danger">18</p>
+      </div>
+    </div>
+  </div>
+</div>
+<h4 class="mt-4">Últimas Reservas</h4>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Fecha</th>
+      <th>Hora</th>
+      <th>Tipo de Habitación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Juan Pérez</td>
+      <td>2025-06-20</td>
+      <td>14:00</td>
+      <td>Suite Premium</td>
+    </tr>
+    <!-- más filas -->
+  </tbody>
+</table>
+<div class="d-flex gap-3 my-4">
+  <a routerLink="/admin/usuarios" class="btn btn-outline-primary">Ver usuarios</a>
+  <a routerLink="/admin/reservas" class="btn btn-outline-success">Gestionar reservas</a>
+  <a routerLink="/admin/eventos" class="btn btn-outline-warning">Eventos</a>
+</div>

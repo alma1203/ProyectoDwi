@@ -1,0 +1,35 @@
+<div class="container-fluid py-4">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h3>Gestión de Servicios</h3>
+    <button class="btn btn-primary">Agregar Servicio</button>
+  </div>
+
+  <!-- Tabla de servicios -->
+  <div class="table-responsive shadow-sm">
+    <table class="table table-bordered align-middle text-center">
+      <thead class="table-dark">
+        <tr>
+          <th>#</th>
+          <th>Imagen</th>
+          <th>Nombre</th>
+          <th>Descripción</th>
+          <th>Precio</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let servicio of servicios; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td><img [src]="servicio.imagen" width="60" height="40" alt="imagen servicio" class="rounded"></td>
+          <td>{{ servicio.nombre }}</td>
+          <td>{{ servicio.descripcion }}</td>
+          <td>S/. {{ servicio.precio }}</td>
+          <td>
+            <button class="btn btn-sm btn-outline-primary me-1">Editar</button>
+            <button class="btn btn-sm btn-outline-danger">Eliminar</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

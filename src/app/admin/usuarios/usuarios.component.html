@@ -1,0 +1,64 @@
+<div class="container-fluid py-4">
+  <h3 class="mb-4">Gestión de Usuarios</h3>
+
+  <!-- Estadísticas -->
+  <div class="row g-3 mb-4">
+    <div class="col-md-4">
+      <div class="card border-0 shadow-sm bg-light text-center">
+        <div class="card-body">
+          <h5 class="card-title">Total Usuarios</h5>
+          <p class="display-6 text-primary fw-bold">150</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card border-0 shadow-sm bg-light text-center">
+        <div class="card-body">
+          <h5 class="card-title">Activos</h5>
+          <p class="display-6 text-success fw-bold">140</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card border-0 shadow-sm bg-light text-center">
+        <div class="card-body">
+          <h5 class="card-title">Inactivos</h5>
+          <p class="display-6 text-danger fw-bold">10</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tabla de usuarios -->
+  <div class="table-responsive">
+    <table class="table table-striped align-middle shadow-sm">
+      <thead class="table-dark">
+        <tr>
+          <th>#</th>
+          <th>Nombre</th>
+          <th>Correo</th>
+          <th>Rol</th>
+          <th>Estado</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let usuario of usuarios; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ usuario.nombre }}</td>
+          <td>{{ usuario.correo }}</td>
+          <td>{{ usuario.rol }}</td>
+          <td>
+            <span class="badge" [ngClass]="usuario.activo ? 'bg-success' : 'bg-secondary'">
+              {{ usuario.activo ? 'Activo' : 'Inactivo' }}
+            </span>
+          </td>
+          <td>
+            <button class="btn btn-sm btn-outline-primary me-1">Editar</button>
+            <button class="btn btn-sm btn-outline-danger">Eliminar</button>
+          </td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
